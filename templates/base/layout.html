@@ -1,0 +1,24 @@
+{% load static %}
+
+<!doctype html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="{% static 'css/base/bootstrap.css' %}">
+        <link rel="stylesheet" href="{% static 'css/base/layout-style.css' %}">
+
+        <title>Book Readers</title>
+
+        {% block Header %}{% endblock %}
+    </head>
+
+    <body>
+
+        <div class="container">
+            {% block main %}{% endblock %}
+        </div>
+
+    </body>
+</html>

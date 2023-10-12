@@ -1,0 +1,14 @@
+@font-face {
+    src: url("../../font/Yekan.ttf");
+    font-family: 'Yekan';
+}
+
+body {
+    font-family: 'Yekan';
+    direction: rtl;
+    background-color:  #fab301;
+}
+
+.btn {
+    width: 100px;
+}
